@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Cherry";
+  src: url("./assets/fonts/CherryBombOne-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.app-body {
+  background-color: rgb(0, 0, 0);
+  color: mediumaquamarine;
+  min-height: 100vh;
+  min-width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  font-family: "Cherry";
+  background-image: url("./assets/images/food-bg.png");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
+  overflow-x: hidden;
+}
+
+.footer-content {
+  background-image: linear-gradient(#fadf8f, #fcf4cf, #fadf8f);
+  height: 50px;
+  border-top: 2px solid black;
+  margin: 0px;
+  position: relative;
+  padding: 0;
+  box-shadow: 0px 5px 0px 0px #00000067;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-content a {
+  margin-left: 10px;
+  margin-right: 10px;
+}
